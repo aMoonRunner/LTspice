@@ -35,10 +35,13 @@ https://github.com/aMoonRunner/LTspice
 下载下来解压缩，文件名叫"LM318.301"，不管它
 
 可以用这个文件在 LTspice 中自动创建图标，但是这样搞就是一个方框，不像是运放
+
 在建好的模型中把运放换成 LM318
+
 ![Alt text](pictures/image-3.png)
 
 运行，符合预期
+
 ![Alt text](pictures/image.png)
 
 把 include 语句注释掉，直接把.301 文件复制进仿真，结果也符合预期
