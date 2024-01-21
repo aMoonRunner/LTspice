@@ -1,5 +1,7 @@
 **_学习笔记--LTspice_**
 
+https://github.com/aMoonRunner/LTspice
+
 ---
 
 > 1.防止遗忘
