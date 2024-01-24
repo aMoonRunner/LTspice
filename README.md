@@ -1,11 +1,10 @@
-**_学习笔记--LTspice_**
+***学习笔记--LTspice***
 
-https://github.com/aMoonRunner/LTspice
+<https://github.com/aMoonRunner/LTspice>
 
 ---
 
 > 1.防止遗忘
->
 > 2.绝知此事要躬行
 
 ---
@@ -25,7 +24,7 @@ https://github.com/aMoonRunner/LTspice
 
 > 原则，高内聚，低耦合，建好的仿真模型发给别人，直接能用
 
-首先复现这篇文章https://zhuanlan.zhihu.com/p/457648572
+首先复现这篇文章<https://zhuanlan.zhihu.com/p/457648572>
 
 下载 LM318 的模型
 
