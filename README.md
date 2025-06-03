@@ -15,7 +15,7 @@
 
 ### LTspice变频PWM
 
-LLC闭环控制涉及到频率可调节的PWM波如何生成的问题，下面提供了一种实现方式，详见[附件](https://github.com/aMoonRunner/LTspice/tree/main/files/userLib_PFM)
+LLC闭环控制涉及到频率可调节的PWM波如何生成的问题，下面提供了一种实现方式，详见[files/userLib_PFM](https://github.com/aMoonRunner/LTspice/tree/main/files/userLib_PFM)
 
 ![alt text](pictures/image-1.png)
 
