@@ -38,6 +38,11 @@ LLC闭环控制涉及到频率可调节的PWM波如何生成的问题，下面�
 
 ![alt text](pictures/image-3.png)
 
+也可以在新建的模型里面加上如下语句
+
+![alt text](pictures/image-5.png)
+
+
 
 
 ### 如何用运放构建1p1z补偿器
