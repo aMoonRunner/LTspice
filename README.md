@@ -41,5 +41,5 @@ LLC闭环控制涉及到频率可调节的PWM波如何生成的问题，下面�
 
 
 ### 如何用运放构建1p1z补偿器
-具体公式推导参考开关电源控制环路设计
+具体公式推导参考开关电源控制环路设计，仿真详见[files/opa1p1z](https://github.com/aMoonRunner/LTspice/tree/main/files/opa1p1z)
 ![alt text](pictures/image-4.png)
