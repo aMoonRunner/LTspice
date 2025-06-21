@@ -12,6 +12,7 @@
 - [怎样制作自定义库？](#怎样制作自定义库)
 - [如何用运放构建1p1z补偿器](#如何用运放构建1p1z补偿器)
 - [怎么获取buck电路的传递函数](#怎么获取buck电路的传递函数)
+- [怎么获取LLC的传递函数](#怎么获取llc的传递函数)
 
 ### 怎样产生变频PWM？
 
@@ -53,3 +54,22 @@ LLC闭环控制涉及到频率可调节的PWM波如何生成的问题，下面�
 仿真详见[files/simplestBuck](https://github.com/aMoonRunner/LTspice/tree/main/files/simplestBuck)
 
 ![alt text](pictures/image-6.png)
+
+fra工具是LTspice最近才推出的，在这之前也有方法能获取传递函数，详见Marcos Alonso的教程，他教程中的附件也上传到files/simplestBuck里面了
+
+![alt text](pictures/image-8.png)
+
+核心逻辑就是：加扰动，然后算输出跟扰动的幅值相位关系。实际上这就是功率级传递函数波特图最原始的来源，输出跟控制之间的幅频关系
+
+有很多仿真软件都能实现这样的功能，我用过的就有plecs，simplis，simulink。就算没有，也能像Marcos Alonso一样自己搭建
+
+
+
+### 怎么获取LLC的传递函数
+
+与buck相比，我们还是更关心LLC的传递函数，方法与获取buck传递函数的方法类似
+
+仿真详见[files/simplestLLC](https://github.com/aMoonRunner/LTspice/tree/main/files/simplestLLC)
+
+
+![alt text](pictures/image-7.png)
