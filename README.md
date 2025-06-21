@@ -11,6 +11,7 @@
 - [怎样产生变频PWM？](#怎样产生变频pwm)
 - [怎样制作自定义库？](#怎样制作自定义库)
 - [如何用运放构建1p1z补偿器](#如何用运放构建1p1z补偿器)
+- [怎么获取buck电路的传递函数](#怎么获取buck电路的传递函数)
 
 ### 怎样产生变频PWM？
 
@@ -43,8 +44,12 @@ LLC闭环控制涉及到频率可调节的PWM波如何生成的问题，下面�
 ![alt text](pictures/image-5.png)
 
 
-
-
 ### 如何用运放构建1p1z补偿器
 具体公式推导参考开关电源控制环路设计，仿真详见[files/opa1p1z](https://github.com/aMoonRunner/LTspice/tree/main/files/opa1p1z)
 ![alt text](pictures/image-4.png)
+
+### 怎么获取buck电路的传递函数
+
+仿真详见[files/simplestBuck](https://github.com/aMoonRunner/LTspice/tree/main/files/simplestBuck)
+
+![alt text](pictures/image-6.png)
