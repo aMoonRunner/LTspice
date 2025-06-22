@@ -8,12 +8,29 @@
 > 2.绝知此事要躬行
 
 ---
+- [常用仿真指令](#常用仿真指令)
 - [怎样产生变频PWM](#怎样产生变频pwm)
 - [怎样制作自定义库](#怎样制作自定义库)
 - [如何用运放构建1p1z补偿器](#如何用运放构建1p1z补偿器)
 - [如何用运放构建3p2z补偿器](#如何用运放构建3p2z补偿器)
 - [怎么获取buck电路的传递函数](#怎么获取buck电路的传递函数)
 - [怎么获取LLC的传递函数](#怎么获取llc的传递函数)
+
+### 常用仿真指令
+
+```
+.options gmin=1e-10
+.options abstol=1e-10
+.options reltol=0.003
+.options method=gear
+.options cshunt=1e-12
+.options gshunt=1e-9
+a
+.model SW SW(Ron=1m Roff=1Meg Vt=5 Vh=0)
+.model userD D(Ron=1m Roff=1Meg Vfwd=0.5)
+```
+
+
 
 ### 怎样产生变频PWM
 
