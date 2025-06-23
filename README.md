@@ -25,12 +25,10 @@
 .options method=gear
 .options cshunt=1e-12
 .options gshunt=1e-9
-a
+
 .model SW SW(Ron=1m Roff=1Meg Vt=5 Vh=0)
 .model userD D(Ron=1m Roff=1Meg Vfwd=0.5)
 ```
-
-
 
 ### 怎样产生变频PWM
 
@@ -86,8 +84,6 @@ fra工具是LTspice最近才推出的，在这之前也有方法能获取传递�
 核心逻辑就是：加扰动，然后算输出跟扰动的幅值相位关系。实际上这就是功率级传递函数波特图最原始的来源，输出跟控制之间的幅频关系
 
 有很多仿真软件都能实现这样的功能，我用过的就有plecs，simplis，simulink。就算没有，也能像Marcos Alonso一样自己搭建
-
-
 
 ### 怎么获取LLC的传递函数
 

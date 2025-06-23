@@ -5,7 +5,7 @@ WINDOW 0 25 -72 Bottom 2
 WINDOW 3 25 72 Top 2
 SYMATTR Prefix X
 SYMATTR Value userLib_pfm
-SYMATTR ModelFile D:\sjhWorkspace\GitHubSpace\LTspice\files\userLibs\userLib_pfm\userLib_pfm.sub
+SYMATTR ModelFile userLib_pfm.sub
 PIN -80 -48 LEFT 8
 PINATTR PinName fn
 PINATTR SpiceOrder 1
